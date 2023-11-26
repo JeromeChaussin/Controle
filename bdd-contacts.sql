@@ -79,3 +79,11 @@ VALUES
     (8, '3789548558', 2),
     (9, '9911335577', 1),
     (10, '6497312580', 2);
+
+-- Pour voir les tables créées
+SHOW TABLES from exo_contacts;
+
+-- Pour afficher les informations dans les tables
+SELECT * FROM pays;
+SELECT * FROM contacts;
+SELECT * FROM telephone;

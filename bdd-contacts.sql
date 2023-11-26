@@ -65,3 +65,17 @@ VALUES
     ('Müller', 'Andreas', '1986-08-12', 'M', '456 Rue du Sapin', '87654', 'Vienne', 'AUT'),
     ('Lefevre', 'Juliette', '1990-11-08', 'F', '123 Rue du Peuplier', '65432', 'Genève', 'CHE'),
     ('Andersson', 'Lars', '1982-02-28', 'M', '789 Rue de l Épicéa', '32109', 'Stockholm', 'SWE');
+
+-- Ajout d'informations dans la table telephone
+INSERT INTO telephone (id_contact, numero, type)
+VALUES
+    (1, '0011223344', 1),
+    (2, '5566778899', 2),
+    (3, '0022446688', 1),
+    (4, '1133557799', 2),
+    (5, '0123456789', 1),
+    (6, '9876543210', 2),
+    (7, '0198754589', 1),
+    (8, '3789548558', 2),
+    (9, '9911335577', 1),
+    (10, '6497312580', 2);

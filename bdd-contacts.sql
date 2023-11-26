@@ -28,3 +28,12 @@ CREATE TABLE IF NOT EXISTS contacts (
     pays_iso_3 VARCHAR(3) NOT NULL,
     FOREIGN KEY (pays_iso_3) REFERENCES pays(iso_3)
 );
+
+-- Création de la table des numéros de téléphone
+CREATE TABLE IF NOT EXISTS telephone (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_contact INT NOT NULL,
+    numero VARCHAR(50) NOT NULL,
+    type TINYINT NOT NULL,
+    FOREIGN KEY (id_contact) REFERENCES contacts(id)
+);

@@ -1,11 +1,11 @@
 -- Suppression de bdd-contacts si elle existe 
-DROP DATABASE IF EXISTS bdd-contacts;
+DROP DATABASE IF EXISTS exo_contacts;
 
 -- Création de bdd-contacts si elle n'existe pas
-CREATE DATABASE IF NOT EXISTS bdd-contacts;
+CREATE DATABASE IF NOT EXISTS exo_contacts;
 
 -- J'utilise la base de donnée bdd-contact
-USE bdd-contacts;
+USE exo_contacts;
 
 -- Création de la table des pays
 CREATE TABLE IF NOT EXISTS pays (

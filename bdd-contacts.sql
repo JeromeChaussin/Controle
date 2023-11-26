@@ -37,3 +37,16 @@ CREATE TABLE IF NOT EXISTS telephone (
     type TINYINT NOT NULL,
     FOREIGN KEY (id_contact) REFERENCES contacts(id)
 );
+
+INSERT INTO pays (iso_3, nom, iso_2, nationalite)
+VALUES
+    ('DEU', 'Allemagne', 'DE', 'Allemande'),
+    ('ESP', 'Espagne', 'ES', 'Espagnole'),
+    ('ITA', 'Italie', 'IT', 'Italienne'),
+    ('GBR', 'Royaume-Uni', 'GB', 'Britannique'),
+    ('FRA', 'France', 'FR', 'Française'),
+    ('NLD', 'Pays-Bas', 'NL', 'Néerlandaise'),
+    ('BEL', 'Belgique', 'BE', 'Belge'),
+    ('AUT', 'Autriche', 'AT', 'Autrichienne'),
+    ('CHE', 'Suisse', 'CH', 'Suisse'),
+    ('SWE', 'Suède', 'SE', 'Suédoise');
